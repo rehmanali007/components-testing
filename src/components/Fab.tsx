@@ -19,10 +19,9 @@ export default function FloatingActionButtons() {
 
     return (
         <div className={classes.root}>
-            <Fab color="primary" aria-label="add">
+            <Fab color="primary">
                 <AddIcon />
             </Fab>
-
         </div>
     );
 }
